@@ -7,7 +7,7 @@ pipeline {
         disableConcurrentBuilds()
     }
     environment {
-        registry = "jordelu/django-lab:v2.0.0"
+        registry = "jordelu/django-lab"
         //registryCredential = 'docker-registry'
         apiServer = "https://192.168.99.101:8443"
         devNamespace = "default"
